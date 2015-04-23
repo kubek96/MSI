@@ -14,3 +14,4 @@ C:\Users\Jakub\Desktop\MSI\Projekt\MSI\bin\Debug\System.Windows.Interactivity.dl
 C:\Users\Jakub\Desktop\MSI\Projekt\MSI\bin\Debug\MahApps.Metro.xml
 C:\Users\Jakub\Desktop\MSI\Projekt\MSI\obj\Debug\MSI.exe
 C:\Users\Jakub\Desktop\MSI\Projekt\MSI\obj\Debug\MSI.pdb
+C:\Users\Jakub\Desktop\MSI\Projekt\MSI\obj\Debug\App.baml
