@@ -1,1 +1,16 @@
 c:\users\jakub\documents\visual studio 2013\Projects\MSI\MSI\bin\Debug\MSI.exe.config
+C:\Users\Jakub\Desktop\MSI\Projekt\MSI\bin\Debug\MSI.exe.config
+C:\Users\Jakub\Desktop\MSI\Projekt\MSI\obj\Debug\MainWindow.baml
+C:\Users\Jakub\Desktop\MSI\Projekt\MSI\obj\Debug\MainWindow.g.cs
+C:\Users\Jakub\Desktop\MSI\Projekt\MSI\obj\Debug\App.g.cs
+C:\Users\Jakub\Desktop\MSI\Projekt\MSI\obj\Debug\MSI_MarkupCompile.cache
+C:\Users\Jakub\Desktop\MSI\Projekt\MSI\obj\Debug\MSI.g.resources
+C:\Users\Jakub\Desktop\MSI\Projekt\MSI\obj\Debug\MSI.Properties.Resources.resources
+C:\Users\Jakub\Desktop\MSI\Projekt\MSI\obj\Debug\MSI.csproj.GenerateResource.Cache
+C:\Users\Jakub\Desktop\MSI\Projekt\MSI\bin\Debug\MSI.exe
+C:\Users\Jakub\Desktop\MSI\Projekt\MSI\bin\Debug\MSI.pdb
+C:\Users\Jakub\Desktop\MSI\Projekt\MSI\bin\Debug\MahApps.Metro.dll
+C:\Users\Jakub\Desktop\MSI\Projekt\MSI\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Jakub\Desktop\MSI\Projekt\MSI\bin\Debug\MahApps.Metro.xml
+C:\Users\Jakub\Desktop\MSI\Projekt\MSI\obj\Debug\MSI.exe
+C:\Users\Jakub\Desktop\MSI\Projekt\MSI\obj\Debug\MSI.pdb
