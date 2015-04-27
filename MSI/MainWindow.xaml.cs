@@ -13,6 +13,8 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using MahApps.Metro.Controls;
+using MSI.View;
+using MSI.ViewModel;
 
 namespace MSI
 {
@@ -24,6 +26,11 @@ namespace MSI
         public MainWindow()
         {
             InitializeComponent();
+            this.DataContext = new MainWindowViewModel();
+
+            //MainGrid.Children.Add(App.Context.MainFrame);
+            //App.Context.MainFrame.Style = Application.Current.Resources["MainFrameStyle"] as Style;
+            //App.Context.MainFrame.Navigate(new UniversumView());
         }
     }
 }

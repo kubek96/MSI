@@ -1,0 +1,5 @@
+C:\Users\Jakub\Desktop\MSI\Projekt\RoughSet\bin\Debug\RoughSet.dll
+C:\Users\Jakub\Desktop\MSI\Projekt\RoughSet\bin\Debug\RoughSet.pdb
+C:\Users\Jakub\Desktop\MSI\Projekt\RoughSet\obj\Debug\RoughSet.csprojResolveAssemblyReference.cache
+C:\Users\Jakub\Desktop\MSI\Projekt\RoughSet\obj\Debug\RoughSet.dll
+C:\Users\Jakub\Desktop\MSI\Projekt\RoughSet\obj\Debug\RoughSet.pdb

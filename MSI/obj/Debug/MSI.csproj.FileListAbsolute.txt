@@ -15,3 +15,17 @@ C:\Users\Jakub\Desktop\MSI\Projekt\MSI\bin\Debug\MahApps.Metro.xml
 C:\Users\Jakub\Desktop\MSI\Projekt\MSI\obj\Debug\MSI.exe
 C:\Users\Jakub\Desktop\MSI\Projekt\MSI\obj\Debug\MSI.pdb
 C:\Users\Jakub\Desktop\MSI\Projekt\MSI\obj\Debug\App.baml
+C:\Users\Jakub\Desktop\MSI\Projekt\MSI\obj\Debug\MSI.csprojResolveAssemblyReference.cache
+C:\Users\Jakub\Desktop\MSI\Projekt\MSI\bin\Debug\RoughSet.dll
+C:\Users\Jakub\Desktop\MSI\Projekt\MSI\bin\Debug\RoughSet.pdb
+C:\Users\Jakub\Desktop\MSI\Projekt\MSI\obj\Debug\View\UniversumView.baml
+C:\Users\Jakub\Desktop\MSI\Projekt\MSI\obj\Debug\View\UniversumView.g.cs
+C:\Users\Jakub\Desktop\MSI\Projekt\MSI\obj\Debug\View\RulesView.baml
+C:\Users\Jakub\Desktop\MSI\Projekt\MSI\obj\Debug\View\RulesView.g.cs
+C:\Users\Jakub\Desktop\MSI\Projekt\MSI\bin\Debug\Microsoft.Practices.Prism.Mvvm.Desktop.dll
+C:\Users\Jakub\Desktop\MSI\Projekt\MSI\bin\Debug\Microsoft.Practices.Prism.Mvvm.dll
+C:\Users\Jakub\Desktop\MSI\Projekt\MSI\bin\Debug\Microsoft.Practices.Prism.SharedInterfaces.dll
+C:\Users\Jakub\Desktop\MSI\Projekt\MSI\bin\Debug\Microsoft.Practices.Prism.Mvvm.xml
+C:\Users\Jakub\Desktop\MSI\Projekt\MSI\bin\Debug\Microsoft.Practices.Prism.SharedInterfaces.xml
+C:\Users\Jakub\Desktop\MSI\Projekt\MSI\obj\Debug\View\SystemView.baml
+C:\Users\Jakub\Desktop\MSI\Projekt\MSI\obj\Debug\View\SystemView.g.cs

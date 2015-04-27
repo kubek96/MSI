@@ -3,7 +3,19 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
         Title="MSI - Zbiory przybliżone" WindowState="Maximized">
-    <Grid>
-        
+    <Grid Margin="20">
+        <Grid>
+            <Controls:MetroAnimatedTabControl>
+                <TabItem Header="System decyzyjny">
+                    <Frame Source="View/SystemView.xaml" Style="{StaticResource MainFrameStyle}"/>
+                </TabItem>
+                <TabItem Header="Universum">
+                    <Frame Source="View/UniversumView.xaml" Style="{StaticResource MainFrameStyle}"/>
+                </TabItem>
+                <TabItem Header="Reguły">
+                    <Frame Source="View/RulesView.xaml" Style="{StaticResource MainFrameStyle}"/>
+                </TabItem>
+            </Controls:MetroAnimatedTabControl>
+        </Grid>
     </Grid>
 </Controls:MetroWindow>

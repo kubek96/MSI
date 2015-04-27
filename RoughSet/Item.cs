@@ -1,23 +1,12 @@
-﻿namespace RoughSet
+﻿using System.Threading;
+
+namespace RoughSet
 {
-    public enum EnglishLevel
-    {
-        Zero,
-        Basic,
-        Intermediate,
-        Advanced
-    }
-
-    public enum Education
-    {
-        Primary,
-        Secondary,
-        IncompleteHigher,
-        Higher
-    }
-
     public class Item
     {
+        public static uint Count = 0;
+
+        public uint ID { get; set; }
         public bool BD { get; set; }
         public bool JI { get; set; }
         public EnglishLevel JA { get; set; }
@@ -39,6 +28,8 @@
         
         public Item(bool bd, bool ji, EnglishLevel ja, uint ll, bool d, bool c, bool s, uint o, Education w, string ks, bool st, bool net, bool asp, bool mvc, bool wpf, bool hcj, bool ef)
         {
+            ID = ++Count;
+
             BD = bd;
             JI = ji;
             JA = ja;
@@ -56,6 +47,11 @@
             WPF = wpf;
             HCJ = hcj;
             EF = ef;
+        }
+
+        public Item()
+        {
+            ID = ++Count;
         }
     }
 }
