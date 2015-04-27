@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSI", "MSI\MSI.csproj", "{15682AF2-03CA-400E-AB30-CF4135960FF8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoughSet", "RoughSet\RoughSet.csproj", "{F5A2F55C-128C-4043-8C2A-B011A154A2FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{15682AF2-03CA-400E-AB30-CF4135960FF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15682AF2-03CA-400E-AB30-CF4135960FF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15682AF2-03CA-400E-AB30-CF4135960FF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5A2F55C-128C-4043-8C2A-B011A154A2FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5A2F55C-128C-4043-8C2A-B011A154A2FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5A2F55C-128C-4043-8C2A-B011A154A2FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5A2F55C-128C-4043-8C2A-B011A154A2FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
