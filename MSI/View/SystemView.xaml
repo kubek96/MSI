@@ -13,7 +13,7 @@
                 <DataTemplate>
                     <StackPanel Orientation="Horizontal">
                         <TextBlock Text="{Binding Position}" />
-                        <Button Content="Wykonaj analizę"/>
+                        <Button Content="Wykonaj analizę" Click="ButtonClick" Tag="{Binding Id}"/>
                     </StackPanel>
                 </DataTemplate>
             </ItemsControl.ItemTemplate>

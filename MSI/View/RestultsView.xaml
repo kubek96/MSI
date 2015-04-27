@@ -8,6 +8,6 @@
 	Title="RestultsView">
 
     <Grid>
-        
+        <DataGrid ItemsSource="{Binding Results}"/>
     </Grid>
 </Page>

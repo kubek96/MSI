@@ -26,5 +26,12 @@ namespace MSI.View
             InitializeComponent();
             this.DataContext = new SystemViewModel();
         }
+
+        private void ButtonClick(object sender, RoutedEventArgs e)
+        {
+            Button b = (Button)sender;
+            int r = Convert.ToInt32(b.Tag);
+            App.Context.GenerateResults(r-1);
+        }
     }
 }

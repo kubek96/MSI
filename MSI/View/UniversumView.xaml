@@ -21,9 +21,7 @@
                 </StackPanel>
             </Grid>
             <Grid Grid.Row="1">
-                <DataGrid ItemsSource="{Binding Universum}">
-
-                </DataGrid>
+                <DataGrid ItemsSource="{Binding Universum}"/>
             </Grid>
         </Grid>
     </Grid>

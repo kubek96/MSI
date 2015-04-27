@@ -53,5 +53,27 @@ namespace RoughSet
         {
             ID = ++Count;
         }
+
+        public Item(Item i)
+        {
+            ID = i.ID;
+            BD = i.BD;
+            JI = i.JI;
+            JA = i.JA;
+            LL = i.LL;
+            D = i.D;
+            C = i.C;
+            S = i.S;
+            O = i.O;
+            W = i.W;
+            KS = i.KS;
+            ST = i.ST;
+            NET = i.NET;
+            ASP = i.ASP;
+            MVC = i.MVC;
+            WPF = i.WPF;
+            HCJ = i.HCJ;
+            EF = i.EF;
+        }
     }
 }

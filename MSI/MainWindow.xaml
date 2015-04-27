@@ -15,6 +15,9 @@
                 <TabItem Header="Reguły">
                     <Frame Source="View/RulesView.xaml" Style="{StaticResource MainFrameStyle}"/>
                 </TabItem>
+                <TabItem Header="Wyniki" Visibility="Visible">
+                    <Frame Source="View/RestultsView.xaml" Style="{StaticResource MainFrameStyle}"/>
+                </TabItem>
             </Controls:MetroAnimatedTabControl>
         </Grid>
     </Grid>
