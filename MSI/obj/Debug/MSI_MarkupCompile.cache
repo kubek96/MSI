@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-S:\zurkowskam\Desktop\MSI\MSI\obj\Debug\
+C:\Users\Jakub\Desktop\MSI\Projekt\MSI\obj\Debug\
 MSI
 none
 false
 DEBUG;TRACE
-S:\zurkowskam\Desktop\MSI\MSI\App.xaml
+C:\Users\Jakub\Desktop\MSI\Projekt\MSI\App.xaml
 5649782042
 
 18-919488557
-72671593598
+72222772812
 MainWindow.xaml;View\RestultsView.xaml;View\RulesView.xaml;View\SystemView.xaml;View\UniversumView.xaml;
 
-False
+True
 

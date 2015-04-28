@@ -16,8 +16,8 @@
             <Grid Grid.Row="0">
                 <StackPanel Orientation="Horizontal">
                     <TextBlock Text="Utwórz nowe Universum"></TextBlock>
-                    <TextBox/>
-                    <Button Style="{StaticResource AccentedSquareButtonStyle}" Content="Generuj"/>
+                    <TextBox Text="{Binding GenerateNewUniversum, Mode=TwoWay}"/>
+                    <Button Style="{StaticResource AccentedSquareButtonStyle}" Content="Generuj" Command="{Binding GenerateCommand}"/>
                 </StackPanel>
             </Grid>
             <Grid Grid.Row="1">

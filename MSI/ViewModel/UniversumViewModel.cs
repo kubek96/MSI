@@ -1,12 +1,28 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
+using System.Windows.Input;
+using Microsoft.Practices.Prism.Commands;
 using RoughSet;
 
 namespace MSI.ViewModel
 {
     public class UniversumViewModel : INotifyPropertyChanged
     {
-        public List<Item> Universum
+        private string _generateNewUniversum;
+        private ICommand _generateCommand;
+
+        public UniversumViewModel()
+        {
+            _generateNewUniversum = "";
+            _generateCommand = new DelegateCommand(delegate
+            {
+                App.Context.GenerateNewUniversum(Convert.ToInt32(_generateNewUniversum));
+            });
+        }
+
+        public ObservableCollection<Item> Universum
         {
             get { return App.Context.Universum; }
         }
@@ -23,6 +39,17 @@ namespace MSI.ViewModel
             field = value;
             OnPropertyChanged(propertyName);
             return true;
+        }
+
+        public string GenerateNewUniversum
+        {
+            get { return _generateNewUniversum; }
+            set { SetField(ref _generateNewUniversum, value, "GenerateNewUniversum"); }
+        }
+
+        public ICommand GenerateCommand
+        {
+            get { return _generateCommand; }
         }
     }
 }

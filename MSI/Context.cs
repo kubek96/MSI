@@ -24,6 +24,11 @@ namespace MSI
             _results = new ObservableCollection<Result>();
         }
 
+        public void GenerateNewUniversum(int n)
+        {
+            _set.GenerateRandomSet(n);
+        }
+
         public void GenerateResults(int r)
         {
             _results.Clear();
@@ -38,7 +43,7 @@ namespace MSI
             get { return _results; }
         }
 
-        public List<Item> Universum
+        public ObservableCollection<Item> Universum
         {
             get { return _set.Universum; }
         }

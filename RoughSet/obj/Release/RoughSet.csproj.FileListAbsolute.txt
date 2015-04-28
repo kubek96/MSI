@@ -1,0 +1,4 @@
+C:\Users\Jakub\Desktop\MSI\Projekt\RoughSet\bin\Release\RoughSet.dll
+C:\Users\Jakub\Desktop\MSI\Projekt\RoughSet\bin\Release\RoughSet.pdb
+C:\Users\Jakub\Desktop\MSI\Projekt\RoughSet\obj\Release\RoughSet.dll
+C:\Users\Jakub\Desktop\MSI\Projekt\RoughSet\obj\Release\RoughSet.pdb
