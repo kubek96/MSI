@@ -53,7 +53,7 @@ namespace RoughSet
             return r;
         }
 
-        public Rule(string position, bool? bd, bool? ji, EnglishLevel ja, bool? d, uint ll, bool? c, bool? s, double o, Education w, string ks, bool? st, bool? net, bool? asp, bool? mvc, bool? wpf, bool? ef, bool? hcj, bool decision)
+        public Rule(string position, bool? bd, bool? ji, EnglishLevel? ja, bool? d, uint ll, bool? c, bool? s, double? o, Education? w, string ks, bool? st, bool? net, bool? asp, bool? mvc, bool? wpf, bool? ef, bool? hcj, bool decision)
         {
             _id = ++count;
 

@@ -3,3 +3,8 @@ C:\Users\Jakub\Desktop\MSI\Projekt\RoughSet\bin\Debug\RoughSet.pdb
 C:\Users\Jakub\Desktop\MSI\Projekt\RoughSet\obj\Debug\RoughSet.csprojResolveAssemblyReference.cache
 C:\Users\Jakub\Desktop\MSI\Projekt\RoughSet\obj\Debug\RoughSet.dll
 C:\Users\Jakub\Desktop\MSI\Projekt\RoughSet\obj\Debug\RoughSet.pdb
+S:\zurkowskam\Desktop\MSI\RoughSet\bin\Debug\RoughSet.dll
+S:\zurkowskam\Desktop\MSI\RoughSet\bin\Debug\RoughSet.pdb
+S:\zurkowskam\Desktop\MSI\RoughSet\obj\Debug\RoughSet.csprojResolveAssemblyReference.cache
+S:\zurkowskam\Desktop\MSI\RoughSet\obj\Debug\RoughSet.dll
+S:\zurkowskam\Desktop\MSI\RoughSet\obj\Debug\RoughSet.pdb

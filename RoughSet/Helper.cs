@@ -44,14 +44,35 @@ namespace RoughSet
 
         public static Rule[] GenerateRules()
         {
-            Rule[] t = new Rule[2];
+            Rule[] t = new Rule[8];
 
-            t[0] = new Rule("Junior developer", false, false, (EnglishLevel) 3, false, 0, true, true, 0, (Education)2,
-                "Informatyka", false, true, true, false, false, false, false, true);
+            t[0] = new Rule("Junior developer", null, false, (EnglishLevel) 3, null, 0, true, true, 0, (Education)2,
+                "Informatyka", false, true, true, null, null, null, null, true);
 
             t[1] = new Rule("Senior developer", null, null, (EnglishLevel)3, true, 2, true, true, 3.5, (Education) 2, null, false,
                 true, true, true, null, true, null, true);
+
+            t[2] = new Rule("Frontend developer in HTML/JavaSript", null, null, (EnglishLevel)3, null, 0, true, null, 0, (Education)2,
+                "Informatyka", false, null, null, null, null, null, true, true);
+
+            t[3] = new Rule("Project manager", true, true, (EnglishLevel)3, true, 4, true, true, 4, (Education)3, "Informatyka", false,
+                true, null, null, null, null, null, true);
+
+            t[4] = new Rule("Stażysta", null, null, (EnglishLevel)2, null, 0, true, true, 0, (Education)2, "Informatyka", true, true, true,
+                null, null, null, null, true);
+
+            t[5] = new Rule("SQL Master", true, null, null, true, 4, true, true, null, (Education)2, null, false, true, null, true, null, true,
+                null, true);
+
+            t[6] = new Rule("Server application programmer", true, null, null, true, 4, true, true, 4, (Education)3, "Informatyka", false, true,
+                true, true, null, true, null, true);
+
+            t[7] = new Rule("Frontend developer in WPF", null, null, null, null, 0, true, null, null, null, null, false, true, true, true,
+                true, null, true, true);
+
             return t;
+
+
         }
     }
 }
