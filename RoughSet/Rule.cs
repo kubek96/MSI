@@ -80,6 +80,11 @@ namespace RoughSet
             _decision = decision;
         }
 
+        public Rule()
+        {
+            _id = ++count;
+        }
+
         public string Position
         {
             get { return _position; }

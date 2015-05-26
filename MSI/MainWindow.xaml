@@ -18,6 +18,12 @@
                 <TabItem Header="Wyniki" Visibility="Visible">
                     <Frame Source="View/RestultsView.xaml" Style="{StaticResource MainFrameStyle}"/>
                 </TabItem>
+                <TabItem Header="Reguly Minimalne" Visibility="Visible">
+                    <Frame Source="View/MinRegView.xaml" Style="{StaticResource MainFrameStyle}"/>
+                </TabItem>
+                <TabItem Header="Legenda" Visibility="Visible">
+                    <Frame Source="View/LegendView.xaml" Style="{StaticResource MainFrameStyle}"/>
+                </TabItem>
             </Controls:MetroAnimatedTabControl>
         </Grid>
     </Grid>

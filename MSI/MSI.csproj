@@ -81,14 +81,23 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Context.cs" />
+    <Compile Include="MinRule.cs" />
     <Compile Include="Result.cs" />
+    <Compile Include="ViewModel\LegendViewModel.cs" />
     <Compile Include="ViewModel\MainViewModel.cs" />
     <Compile Include="ViewModel\MainWindowViewModel.cs" />
+    <Compile Include="ViewModel\MinRegViewModel.cs" />
     <Compile Include="ViewModel\RestultsViewModel.cs" />
     <Compile Include="ViewModel\RulesViewModel.cs" />
     <Compile Include="ViewModel\SystemViewModel.cs" />
     <Compile Include="ViewModel\UniversumViewModel.cs" />
     <Compile Include="ViewModel\ViewModelLocator.cs" />
+    <Compile Include="View\LegendView.xaml.cs">
+      <DependentUpon>LegendView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\MinRegView.xaml.cs">
+      <DependentUpon>MinRegView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\RestultsView.xaml.cs">
       <DependentUpon>RestultsView.xaml</DependentUpon>
     </Compile>
@@ -113,6 +122,14 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="View\LegendView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\MinRegView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="View\RestultsView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

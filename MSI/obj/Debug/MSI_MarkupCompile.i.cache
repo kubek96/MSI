@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Jakub\Desktop\MSI\Projekt\MSI\obj\Debug\
+D:\MSI\MSI\MSI\obj\Debug\
 MSI
 none
 false
 DEBUG;TRACE
-C:\Users\Jakub\Desktop\MSI\Projekt\MSI\App.xaml
-5649782042
+D:\MSI\MSI\MSI\App.xaml
+7-5554019
 
-221565082843
-221478945146
-MainWindow.xaml;View\RestultsView.xaml;View\RulesView.xaml;View\SystemView.xaml;View\UniversumView.xaml;
+27-982922926
+22680077637
+MainWindow.xaml;View\LegendView.xaml;View\MinRegView.xaml;View\RestultsView.xaml;View\RulesView.xaml;View\SystemView.xaml;View\UniversumView.xaml;
 
 False
 
