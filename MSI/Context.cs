@@ -86,7 +86,10 @@ namespace MSI
             foreach (var l in matrix)
             {
                 if (l.Count < 2)
+                {
+                    minRules.AddRange(l);
                     continue;
+                }
                 List<MinRule> tmp = new List<MinRule>();
                 List<MinRule> tmp2 = new List<MinRule>();
                 tmp.Add(l[0]);
@@ -114,9 +117,10 @@ namespace MSI
                 }
             }
 
+            Rule.count = 0;
             for (int i = 0; i < minRules.Count; ++i)
                 if (minRules[i] != null)
-                    _minRules.Add(minRules[i]);
+                    _minRules.Add(new MinRule(minRules[i]));
 
         }
 

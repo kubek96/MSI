@@ -235,6 +235,7 @@ namespace MSI
 
         public bool Contains(MinRule mr)
         {
+            if (this.Decision != null) if (this.Decision != mr.Decision) return false;
             if (this.Asp != null) if (this.Asp != mr.Asp) return false;
             if (this.Bd != null) if (this.Bd != mr.Bd) return false;
             if (this.C != null) if (this.C != mr.C) return false;

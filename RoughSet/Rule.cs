@@ -4,7 +4,7 @@ namespace RoughSet
 {
     public class Rule
     {
-        private static uint count = 0;
+        public static uint count = 0;
         private uint _id;
 
         private string _position;
